@@ -104,7 +104,7 @@ if(NOT DEFINED ESPEAK_NG_DIR)
         espeak_ng_external
         PREFIX "${CMAKE_CURRENT_BINARY_DIR}/e"
         GIT_REPOSITORY https://github.com/denoming/espeak-ng.git
-        GIT_TAG ee2fe523ff9dd805a2da9f85f81d7cf0f9ea0c20
+        GIT_TAG a4c3ab3a712d0c8a5a1381b49af747596e2a2b65
         CMAKE_ARGS -DCMAKE_INSTALL_PREFIX:PATH=${ESPEAK_NG_DIR}
         CMAKE_ARGS -DUSE_ASYNC:BOOL=OFF
         CMAKE_ARGS -DBUILD_SHARED_LIBS:BOOL=ON
